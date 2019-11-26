@@ -1,0 +1,19 @@
+.transactionhistory {
+  margin: 0 auto;
+  width: 700px;
+  border: 1px solid grey;
+}
+.head {
+  background-color: rgb(171, 89, 230);
+  color: white;
+  padding: 20px;
+}
+.headLine {
+  height: 40px;
+  text-align: center;
+  border-collapse: separate;
+  border: 1px solid gray;
+}
+.headLine:nth-child(even) {
+  background-color: #f2f2f2;
+}

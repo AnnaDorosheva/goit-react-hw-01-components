@@ -1,0 +1,41 @@
+body {
+margin: 0 auto;
+padding: 0;
+}
+
+.statistics {
+  width: 600px;
+  background-color: honeydew;
+  border: 1px solid grey;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.statlist {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  background-color: hotpink;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid rgb(52, 50, 50);
+  width: 20%;
+  padding-top: 14px;
+}
+
+.percentage {
+font-size: 24px;
+padding-top: 6px;
+}
